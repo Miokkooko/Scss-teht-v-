@@ -1,0 +1,116 @@
+.container.grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+@media (min-width: 600px) {
+  .container.grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container.grid {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.container.grid .card {
+  outline: 0.1px solid black;
+  padding: 1em;
+  -webkit-box-shadow: 0 2px 6px #525151;
+          box-shadow: 0 2px 6px #525151;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.container.grid .card:hover {
+  -webkit-box-shadow: 0 4px 12px #525151;
+          box-shadow: 0 4px 12px #525151;
+}
+
+.container.grid .card h3 {
+  color: #a0a2ff;
+}
+
+.container.grid .sidebar {
+  outline: 0.1px solid black;
+  padding: 1em;
+  -webkit-box-shadow: 0 2px 6px #525151;
+          box-shadow: 0 2px 6px #525151;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.container.grid .sidebar:hover {
+  -webkit-box-shadow: 0 4px 12px #525151;
+          box-shadow: 0 4px 12px #525151;
+}
+
+.container.grid .sidebar h4 {
+  color: #a0a2ff;
+}
+
+.container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em;
+}
+
+.container h1 {
+  color: #373af0;
+}
+
+.container h2 {
+  color: #7779ff;
+}
+
+.container p {
+  color: #333333;
+}
+
+.btn.btn-primary {
+  color: #333333;
+  background-color: rgba(158, 158, 158, 0.308);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.btn.btn-primary:hover {
+  outline: 2px solid #adc0ff;
+  outline-offset: 1px;
+  background-color: rgba(107, 107, 107, 0.308);
+  color: #373af0;
+}
+
+.btn.btn-secondary {
+  color: #333333;
+  background-color: rgba(158, 158, 158, 0.308);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.btn.btn-secondary:hover {
+  outline: 2px solid #adc0ff;
+  outline-offset: 1px;
+  background-color: rgba(107, 107, 107, 0.308);
+  color: #373af0;
+}
+
+.link {
+  color: #333333;
+  background-color: rgba(158, 158, 158, 0.308);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.link:hover {
+  outline: 2px solid #adc0ff;
+  outline-offset: 1px;
+  background-color: rgba(107, 107, 107, 0.308);
+  color: #373af0;
+}
+/*# sourceMappingURL=style.css.map */

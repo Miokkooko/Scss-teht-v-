@@ -1,0 +1,26 @@
+//3) Sisäkkäiset valitsijat ja &-parent (layout.scss)
+
+.container.grid{
+    display:grid;
+
+@media (min-width:600px)
+{
+    grid-template-columns:1fr;
+    
+}
+
+@media (min-width: 1000px)
+{
+  grid-template-columns: 1fr 1fr 1fr
+}
+    .card{
+        @include cardMix;
+        h3{
+        color: $primary-color3;
+    }
+    }
+    .sidebar{
+        @include cardMix;
+        h4{color:$primary-color3;}
+    }
+}

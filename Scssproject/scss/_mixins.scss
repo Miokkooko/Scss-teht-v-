@@ -1,0 +1,54 @@
+//Mixin + include: esim. nappi, container, media-kyselyt (mixins.scss)
+
+
+@mixin containerMix{
+
+    h1{
+        color: $primary-color;
+    }
+h2{
+    color: $primary-color2;
+}
+
+    align-items: center;
+    p{
+        color:$secondary-color;
+    }
+    padding: $spacer;
+}
+
+@mixin nappiMix{
+
+color:$secondary-color;
+background-color: rgba(158, 158, 158, 0.308);
+
+
+&:hover{outline: 2px solid rgb(173, 192, 255); outline-offset: 1px;  background-color: darken(rgba(158, 158, 158, 0.308),20%); color:$primary-color;} 
+ 
+transition: all 0.2s ease;
+
+
+
+}
+
+@mixin mediaqMix{
+    
+@media (min-width:600px)
+{
+    grid-template-columns:1fr;
+}
+
+@media (min-width: 1000px)
+{
+  grid-template-columns: 1fr 1fr 1fr
+}
+}
+
+@mixin cardMix{
+    outline: 0.1px solid black;
+    padding: $spacer;
+    box-shadow: 0 2px 6px rgb(82, 81, 81);
+    transition: all 0.2s ease;
+    &:hover{box-shadow:0 4px 12px rgb(82, 81, 81)}
+
+}

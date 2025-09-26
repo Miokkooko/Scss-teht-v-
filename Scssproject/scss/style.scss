@@ -1,0 +1,22 @@
+@import "variables";
+@import "mixins";
+@import "layout";
+
+.container{
+    @include containerMix;
+}
+
+
+.btn {
+  
+
+  &.btn-primary {
+    @include nappiMix;
+  }
+
+  &.btn-secondary {
+    @include nappiMix;
+  }
+}
+
+.link{@include nappiMix;}
