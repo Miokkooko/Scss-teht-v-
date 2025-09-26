@@ -1,6 +1,6 @@
 ![alt text](webpic.png)
 
-#Scss projekti
+
 
 Scss ominaisuuksia käytetty:
 - Mixineitä, kuten nappiMix ja cardMix. Käytin näitä mixejä, jotta pystyin eri asioille nopeasti antamaan samankaltaiset attribuutit. 
